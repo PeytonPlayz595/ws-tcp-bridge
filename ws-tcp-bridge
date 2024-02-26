@@ -74,7 +74,8 @@ function initSocketCallbacks(state,ws,s) {
 		if(! state.wsReady) {
 			state.wsBuffer.push(data);
 		} else {
-			ws.send(data,{binary: true,mask: wsMask});
+			let bufferData = Buffer.from(data, 'binary');
+			ws.send(bufferData,{binary: true,mask: wsMask});
 		}
 	});
 
