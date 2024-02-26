@@ -4,8 +4,8 @@
   "description": "Proxy between websocket and tcp servers",
   "bin" : { "ws-tcp-bridge" : "./ws-tcp-bridge" },
   "dependencies": {
-    "optimist": "~0.3.7",
-    "ws": "^6.0.0"
+    "optimist": "^0.6.1",
+    "ws": "^8.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewchambers/ws-tcp-bridge.git"
+    "url": "https://github.com/PeytonPlayz595/ws-tcp-bridge.git"
   },
   "keywords": [
     "websockets",
