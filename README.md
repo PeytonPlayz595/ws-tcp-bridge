@@ -1,7 +1,7 @@
 TCP to WebSocket proxy
 =============
 
-A TCP to Websocket proxy made using nodejs
+A TCP to Websocket proxy for Minecraft made using nodejs
 
 WIP - the actual code is extremely simple, it has been tested and seems pretty stable, feel free to help.
 
